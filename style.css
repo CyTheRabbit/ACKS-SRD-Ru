@@ -1,0 +1,27 @@
+body {
+    padding: 10px;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+  table, td, th {
+    border: 1px solid black;
+    padding: 4px;
+  }
+
+  table + table {
+    margin-top: 4ex;
+  }
+
+h1 {
+      text-align: center;
+  }
+
+.ToC {
+    text-align: center;
+}
