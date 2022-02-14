@@ -1,17 +1,16 @@
 body {
     padding: 10px;
     background-color: rgb(252, 245, 237);
-    width: 720px;
+    width: 1080px;
     margin: auto;
 }
 
 .logo {
-  width: 720px;
+  width: 1080px;
 }
 
 table {
     border-collapse: collapse;
-    width: 720px;
   }
 
 table, td, th {
