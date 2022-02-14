@@ -1,12 +1,12 @@
 body {
     padding: 10px;
     background-color: rgb(252, 245, 237);
-    width: 1080px;
+    width: 90%;
     margin: auto;
 }
 
 .logo {
-  width: 1080px;
+  width: 80%;
 }
 
 table {
