@@ -5,7 +5,7 @@ body {
 
 .logo {
     display: block;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,6 +15,7 @@ h1 {
     padding-right: 20px;
     margin-bottom: 0px;
     text-align: center;
+    font-size: 48px;
 }
 
 h2 {
@@ -38,6 +39,7 @@ h4 {
 p {
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 20px;
 }
 
 ol {
@@ -49,7 +51,7 @@ table {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
-    font-size: large;
+    font-size: 20px;
 }
 
 th {
@@ -74,7 +76,7 @@ td {
 
 .ToC {
     text-align: center;
-    width: 60%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     color: gray;
@@ -94,14 +96,13 @@ td {
   }
   
 .chapter-links h4 {
-    width: 500px;
+    width: 90%;
     text-transform: uppercase;
     text-align: center;
     margin: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 25px;
     background-color: #c7c1b3;
-    font-size: larger;
+    font-size: 42px;
   }
 
   a:link {
