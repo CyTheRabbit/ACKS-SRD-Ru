@@ -1,35 +1,121 @@
 body {
-    padding: 10px;
-    background-color: rgb(252, 245, 237);
-    width: 700px;
-    margin: auto;
+    background-color: #F8F6F1;
+    font-size: medium;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 48px;
+}
+
+h2 {
+    background-color: #c7c1b3;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #5f1704;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: xx-large;
+}
+
+h4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+ol {
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 table {
-    border-collapse: collapse;
-  }
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
 
-  table, td, th {
-    border: 1px solid black;
-    padding: 4px;
-  }
+th {
+    background-color: #c7c1b3;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-  table + table {
-    margin-top: 4ex;
-  }
+tr {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-h1 {
-      text-align: center;
-      background-color: rgb(255, 232, 206);
-      padding: 2px;
-  }
+table tr:nth-child(even) {
+    background-color: #d8d4c9;
+}
 
-h2 {
-    text-align: center;
-    background-color: rgb(255, 232, 206);
-    padding: 2px;
-  }
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 .ToC {
     text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
 }
+
+.ToC-header {
+    color: black;
+    background-color: #F8F6F1;
+}
+
+.chapter-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+.chapter-links h4 {
+    width: 90%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 25px;
+    background-color: #c7c1b3;
+    font-size: 42px;
+  }
+
+  a:link {
+      text-decoration: none;
+      color: #5f1704;
+  }
+
+  a:visited {
+      text-decoration: none;
+      color: #5f1704;
+  }
+
+  a:hover {
+      color: #eb3401;
+  }
